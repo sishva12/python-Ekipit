@@ -1,0 +1,17 @@
+const numbers = [1,2,3,4];
+let newnum = numbers.map(Math.sqrt);
+console.log(newnum);
+
+const employees = ["sishva","kiran","nani","sai"];
+let newemploy = employees.map(str1=>str1+str1);
+console.log(newemploy);
+let oldemply = employees.reduce((a,b)=>a+b);
+console.log(oldemply);
+
+const fruits = ["apple","banana","orange","mango"];
+let filterfruits = fruits.filter(x => x.length<=7);
+console.log(filterfruits);
+
+
+
+

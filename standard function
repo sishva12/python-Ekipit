@@ -1,0 +1,36 @@
+if (!isNaN(num)) {
+  // Calculate the factorial and display the result
+  const factorial = calculateFactorial(num);
+  console.log(`The factorial of ${num} is ${factorial}`);
+} else {
+  console.log("Invalid input. Please enter a valid number.");
+}
+This program defines a function calculateFactorial that uses recursion to calculate the factorial of a number. It also uses the prompt function to take user input, converts the input to a number using parseInt, and then displays the factorial of the entered number. If the user enters an invalid input, it provides an error message.
+
+
+
+
+User
+write a standard function example in javascript
+ChatGPT
+Certainly, here's an example of a standard JavaScript function that adds two numbers and returns the result:
+
+javascript
+Copy code
+// Function to add two numbers
+function addNumbers(a, b) {
+  return a + b;
+}
+
+// Example usage
+const number1 = 5;
+const number2 = 10;
+const sum = addNumbers(number1, number2);
+
+console.log(`The sum of ${number1} and ${number2} is ${sum}`);
+In this example, the addNumbers function takes two parameters, a and b, and returns their sum. The console.log statement is used to display the result of the addition. You can call this function with different sets of numbers to add them together.
+
+
+
+
+

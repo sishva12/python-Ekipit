@@ -1,0 +1,31 @@
+// Convert the statement to lowercase to handle both uppercase and lowercase vowels.
+  statement = statement.toLowerCase();
+  
+  // Use a Set to store unique vowels.
+  const uniqueVowels = new Set();
+  
+  for (let i = 0; i < statement.length; i++) {
+    const char = statement[i];
+    if ("aeiou".includes(char) && !uniqueVowels.has(char)) {
+      uniqueVowels.add(char);
+    }
+  }
+  
+  // Convert the Set back to an array if needed.
+  const uniqueVowelsArray = Array.from(uniqueVowels);
+  
+  return uniqueVowelsArray;
+
+
+const statement = "This is a sample statement.";
+const uniqueVowels = findUniqueVowels(statement);
+
+console.log("Unique vowels in the statement:", uniqueVowels); 
+
+
+
+
+
+
+
+

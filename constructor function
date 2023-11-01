@@ -1,0 +1,25 @@
+function employee(name,age,gender,designation) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    this.designation = designation;
+}
+var employee1 = new employee("kiran",25,"male","manager");
+console.log("employee name",employee1.name);
+console.log("employee age",employee1.age);
+console.log("employee gender",employee1.gender);
+console.log("employee designation",employee1.designation);
+
+
+var employee2 = new employee("nani",23,"male","HR");
+console.log("employee name",employee2.name);
+console.log("employee age",employee2.age);
+console.log("employee gender",employee2.gender);
+console.log("employee designation",employee2.designation);
+
+var employee3 = new employee("sowje",23,"female","employee");
+console.log(employee3);
+
+var employ4 = new employee("durga",25,"male","hr");
+console.log(employ4);
+
